@@ -608,10 +608,10 @@ unsigned int createPolygonModel(void)
 
 	// BACK
 	vertices[249] = 3.0 - 3.0; vertices[250] = -1.0; vertices[251] = -1.0; // Top left  corner  41
-	colors[249] = 1.0; colors[250] = 0.5; colors[251] = 0.1; // Top left corner
+	colors[249] = 1.0; colors[250] = 0.0; colors[251] = 0.0; // Top left corner
 
 	vertices[252] = 3.0 - 3.0; vertices[253] = -1.0; vertices[254] = -4.0; // Bottom left  corner  42
-	colors[252] = 1.0; colors[253] = 0.5; colors[254] = 0.5; // Bottom left corner
+	colors[252] = 1.0; colors[253] = 0.0; colors[254] = 0.0; // Bottom left corner
 
 	vertices[255] = 3.0 - 3.0; vertices[256] = 2.0; vertices[257] = -4.0; // Bottom right corner  40
 	colors[255] = 1.0; colors[256] = 0.0; colors[257] = 0.0; // Bottom right corner
@@ -730,8 +730,9 @@ void renderPolygonModel(void)
 	// HERE: THIS CAUSES AN ERROR BECAUSE I DO NOT KNOW HOW MANY POLYGONS YOU HAVE.
 	// COMPLETE THE LINE
     // Draw the triangles
-    glDrawArrays(GL_TRIANGLES, 0 , 100);
-
+    glDrawArrays(GL_TRIANGLES, 0 , 82);
+	glDrawArrays(GL_TRIANGLES, 82, 83);
+	//glDrawArrays(GL_TRIANGLES, 84, 85);
     // Unbind our Vertex Array Object
     glBindVertexArray(0);
 }
