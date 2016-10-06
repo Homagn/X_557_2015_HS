@@ -1,0 +1,9 @@
+1. The main_lighting.cpp is the main cpp file
+
+2. I have created a new shader and vertex source code which is loaded from the text file inside data/shaders. The name is shadercombi.vs and shadercombi.fs respectively. They are needed for the combined lighting situation of the fourth sphere from the left(the yellow one)
+
+3. I have also modified the GLSphere.cpp and GLSphere.h files, please make sure to add them/overwrite them while compiling.
+
+4. All of the modified cpp files are attached here.
+
+5. Please find the screenshot in Assignment3Screenshot.png
