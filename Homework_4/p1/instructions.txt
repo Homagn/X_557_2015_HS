@@ -1,0 +1,4 @@
+main_simple_texture.cpp is the main program containing the code
+The output is attched as output1
+The shader file is in the data>shaders folder
+the textures are in the data>textures folder
