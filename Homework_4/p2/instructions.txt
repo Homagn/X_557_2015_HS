@@ -1,4 +1,5 @@
 main_multi_texture.cpp is the main program containing the code
 The output is attched as output1
+Press t to change into different blending modes.I have edited the multi_texture.fs file and created my own custom blending code
 The shader file is in the data>shaders folder
 the textures are in the data>textures folder
