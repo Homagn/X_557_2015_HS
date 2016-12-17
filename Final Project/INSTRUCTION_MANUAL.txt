@@ -1,0 +1,27 @@
+Welcome to the pc version sit at home pokemon go 
+
+ 
+The main class is the main_model_loader class 
+
+1. Press w to walk forward, tap w repeatedly to switch between first person and thrird person view. 
+
+ 
+2. Press a and d to rotate and change walking direction. Can be pressed during walking and also while at rest. 
+
+ 
+3. If you dont get a straight facing camera in first person, keep pressing a or d until the character rotates one full rotation. 
+
+ 
+4. Press h to get ready to throw pokeball. 
+
+ 
+5. Press o and p to adjust the tracker and finalize the throw. 
+
+ 
+6. After first throw you can press o repeated to get a throw (in h mode) 
+ 
+ 
+7. If you get a glitched thowing stance , press w. 
+
+ 
+8. You can move forward in h mode by pressing w. 
